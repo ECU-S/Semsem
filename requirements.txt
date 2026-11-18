@@ -1,0 +1,18 @@
+# Core Mathematics & Data Handling
+numpy>=1.22.0
+scipy>=1.8.0
+
+# Visualization & Mapping (Team 2)
+matplotlib>=3.5.0
+
+# Hardware & Serial Communication (Team 1 & Firmware)
+pyserial>=3.5
+websockets>=10.0
+requests>=2.28.0
+
+# Optimization & Reinforcement Learning (Team 4 & Team 5)
+stable-baselines3>=2.0.0
+gymnasium>=0.29.0
+
+# Computer Vision & Sensor Utilities (Potential future needs)
+opencv-python>=4.5.0
