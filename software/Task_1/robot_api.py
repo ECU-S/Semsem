@@ -8,17 +8,21 @@ class RobotError(Exception):
         self.code = code
 
 class Robot(ABC):
-    @abstractmethod
-    def scan(self) -> dict: ...          # returns {"dist_cm":[l,f,r], "yaw":..., "steps":...}
+    """What every robot (real or simulated) must be able to do.
 
+    Reply dicts always contain "yaw" and "steps". Extra fields:
+      scan -> "left", "front", "right" (cm or None), plus "dist_cm" = [left, front, right]
+      walk -> "done" (steps actually taken), "blocked" (True = stopped early by an obstacle)
+    """
+    @abstractmethod
+    def scan(self) -> dict: ...
     @abstractmethod
     def walk(self, steps: int) -> dict: ...
-
     @abstractmethod
-    def turn(self, deg: float) -> dict: ...
-
+    def turn(self, deg: float) -> dict: ...   # positive = left (CCW)
     @abstractmethod
     def stop(self) -> dict: ...
-
+    @abstractmethod
+    def reset(self) -> dict: ...              # zero steps/yaw (new origin)
     @abstractmethod
     def close(self) -> None: ...
