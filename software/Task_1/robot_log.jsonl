@@ -1,0 +1,49 @@
+{"t": 1795254737.4270778, "dir": "event", "msg": {"what": "connected", "addr": "127.0.0.1:5000"}}
+{"t": 1795254737.4301748, "dir": "out", "msg": {"id": 1, "cmd": "ping"}}
+{"t": 1795254737.430496, "dir": "in", "msg": {"id": 1, "ok": true, "yaw": 1.0, "steps": 0}}
+{"t": 1795254737.4305336, "dir": "event", "msg": {"what": "safe_again"}}
+{"t": 1795254737.4646897, "dir": "out", "msg": {"id": 2, "cmd": "reset"}}
+{"t": 1795254737.4649396, "dir": "in", "msg": {"id": 2, "ok": true, "yaw": 0.4, "steps": 0}}
+{"t": 1795254737.4649923, "dir": "out", "msg": {"id": 3, "cmd": "scan"}}
+{"t": 1795254737.465501, "dir": "in", "msg": {"id": 3, "ok": true, "left": null, "front": null, "right": 19.8, "yaw": 0.3, "steps": 0}}
+{"t": 1795254737.465644, "dir": "out", "msg": {"id": 4, "cmd": "walk", "n": 10}}
+{"t": 1795254737.973328, "dir": "in", "msg": {"id": 4, "ok": true, "done": 10, "blocked": false, "yaw": -0.5, "steps": 10}}
+{"t": 1795254737.9942172, "dir": "out", "msg": {"id": 5, "cmd": "scan"}}
+{"t": 1795254737.9962597, "dir": "in", "msg": {"id": 5, "ok": true, "left": null, "front": null, "right": 20.6, "yaw": -0.2, "steps": 10}}
+{"t": 1795254737.9964094, "dir": "out", "msg": {"id": 6, "cmd": "walk", "n": 10}}
+{"t": 1795254738.5078676, "dir": "in", "msg": {"id": 6, "ok": true, "done": 10, "blocked": false, "yaw": 0.2, "steps": 20}}
+{"t": 1795254738.5286715, "dir": "out", "msg": {"id": 7, "cmd": "scan"}}
+{"t": 1795254738.5296373, "dir": "in", "msg": {"id": 7, "ok": true, "left": null, "front": null, "right": 19.0, "yaw": -0.3, "steps": 20}}
+{"t": 1795254738.5297086, "dir": "out", "msg": {"id": 8, "cmd": "walk", "n": 10}}
+{"t": 1795254739.037192, "dir": "in", "msg": {"id": 8, "ok": true, "done": 10, "blocked": false, "yaw": -0.3, "steps": 30}}
+{"t": 1795254739.0576105, "dir": "out", "msg": {"id": 9, "cmd": "scan"}}
+{"t": 1795254739.0582538, "dir": "in", "msg": {"id": 9, "ok": true, "left": null, "front": null, "right": 20.4, "yaw": 0.2, "steps": 30}}
+{"t": 1795254739.058316, "dir": "out", "msg": {"id": 10, "cmd": "walk", "n": 10}}
+{"t": 1795254739.5651844, "dir": "in", "msg": {"id": 10, "ok": true, "done": 10, "blocked": false, "yaw": -0.3, "steps": 40}}
+{"t": 1795254739.5864, "dir": "out", "msg": {"id": 11, "cmd": "scan"}}
+{"t": 1795254739.5869663, "dir": "in", "msg": {"id": 11, "ok": true, "left": null, "front": null, "right": 22.1, "yaw": -0.1, "steps": 40}}
+{"t": 1795254739.5870044, "dir": "out", "msg": {"id": 12, "cmd": "walk", "n": 10}}
+{"t": 1795254740.09519, "dir": "in", "msg": {"id": 12, "ok": true, "done": 10, "blocked": false, "yaw": -0.7, "steps": 50}}
+{"t": 1795254740.1157656, "dir": "out", "msg": {"id": 13, "cmd": "stop"}}
+{"t": 1795254740.115959, "dir": "in", "msg": {"id": 13, "ok": true, "yaw": -0.5, "steps": 50}}
+{"t": 1795254740.1160793, "dir": "out", "msg": {"id": 14, "cmd": "truth"}}
+{"t": 1795254740.1162972, "dir": "in", "msg": {"id": 14, "ok": true, "x": 117.7, "y": 19.5, "yaw": 0.0, "steps": 50}}
+{"t": 1795255100.551351, "dir": "event", "msg": {"what": "connected", "addr": "127.0.0.1:5000"}}
+{"t": 1795255100.5514355, "dir": "out", "msg": {"id": 1, "cmd": "ping"}}
+{"t": 1795255100.5517027, "dir": "in", "msg": {"id": 1, "ok": true, "yaw": 0.5, "steps": 0}}
+{"t": 1795255100.5517297, "dir": "event", "msg": {"what": "safe_again"}}
+{"t": 1795255100.6385956, "dir": "out", "msg": {"id": 2, "cmd": "reset"}}
+{"t": 1795255100.6398413, "dir": "in", "msg": {"id": 2, "ok": true, "yaw": -0.2, "steps": 0}}
+{"t": 1795255100.6400778, "dir": "out", "msg": {"id": 3, "cmd": "scan"}}
+{"t": 1795255100.6425354, "dir": "in", "msg": {"id": 3, "ok": true, "left": null, "front": null, "right": 20.4, "yaw": -0.7, "steps": 0}}
+{"t": 1795255100.6427243, "dir": "out", "msg": {"id": 4, "cmd": "walk", "n": 10}}
+{"t": 1795255101.1533647, "dir": "in", "msg": {"id": 4, "ok": true, "done": 10, "blocked": false, "yaw": -1.8, "steps": 10}}
+{"t": 1795255101.1742632, "dir": "out", "msg": {"id": 5, "cmd": "scan"}}
+{"t": 1795255101.177007, "dir": "in", "msg": {"id": 5, "ok": true, "left": null, "front": null, "right": 22.3, "yaw": -2.4, "steps": 10}}
+{"t": 1795255101.1773138, "dir": "out", "msg": {"id": 6, "cmd": "walk", "n": 10}}
+{"t": 1795255101.6865005, "dir": "in", "msg": {"id": 6, "ok": true, "done": 10, "blocked": false, "yaw": -3.5, "steps": 20}}
+{"t": 1795255101.707408, "dir": "out", "msg": {"id": 7, "cmd": "scan"}}
+{"t": 1795255103.7219853, "dir": "event", "msg": {"what": "unsafe", "reason": "TIMEOUT"}}
+{"t": 1795255103.722219, "dir": "out", "msg": {"id": 8, "cmd": "stop"}}
+{"t": 1795255104.7270942, "dir": "event", "msg": {"what": "unsafe", "reason": "LINK_DOWN"}}
+{"t": 1795255104.727445, "dir": "event", "msg": {"what": "unsafe", "reason": "LINK_DOWN"}}
